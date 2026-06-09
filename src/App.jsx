@@ -11,18 +11,29 @@ import Cli from './componants/windows/Cli'
 
 
 
+
 function App() {
+
+  const [windowsState, setWindowsState] = useState({
+    github: false,
+    note: false,
+    resume: false,
+    spotify: false,
+    cli: false,
+    
+  })
+
 
   return (
     <main>
       <Nav/>
-      <Dock/>
+      <Dock windowsState={windowsState} setWindowsState={setWindowsState}/>
 
-      <Github/>
-      <Note/>
-      <Resume/>
-      <Spotify/>
-      <Cli/>
+      {windowsState.github && <Github windowName="GitHub" setWindowsState={setWindowsState}/>}
+      {windowsState.note && <Note windowName="Note" setWindowsState={setWindowsState}/>}
+      {windowsState.resume && <Resume windowName="Resume" setWindowsState={setWindowsState}/>}
+      {windowsState.spotify && <Spotify windowName="Spotify" setWindowsState={setWindowsState}/>}
+      {windowsState.cli && <Cli windowName="CLI" setWindowsState={setWindowsState}/>}
       
     </main>
   )
