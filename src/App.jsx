@@ -5,6 +5,7 @@ import Nav from './componants/Nav'
 import MacWindow from './componants/windows/MacWindow'
 import Github from './componants/windows/Github'
 import Note from './componants/windows/Note'
+import Resume from './componants/windows/Resume'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
 
       <Github/>
       <Note/>
+      <Resume/>
     </main>
   )
 }
