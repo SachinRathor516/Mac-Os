@@ -6,12 +6,12 @@ window.process = process;
 
 
 
-const MacWindow = ({children}) => {
+const MacWindow = ({children ,width='40vw',height='50vh',}) => {
     return (
         <Rnd
         default={{
-            width:'50vw',
-            height:'50vh',
+            width:width,
+            height:height,
             x:250,
             y:100
         }}>

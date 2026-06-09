@@ -6,6 +6,7 @@ import MacWindow from './componants/windows/MacWindow'
 import Github from './componants/windows/Github'
 import Note from './componants/windows/Note'
 import Resume from './componants/windows/Resume'
+import Spotify from './componants/windows/Spotify'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Github/>
       <Note/>
       <Resume/>
+      <Spotify/>
     </main>
   )
 }
