@@ -1,6 +1,11 @@
 import React from 'react'
 import { Rnd } from 'react-rnd'
 import './window.scss'
+import process from "process";
+window.process = process;
+
+
+
 const MacWindow = ({children}) => {
     return (
         <Rnd
