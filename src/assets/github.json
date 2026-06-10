@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=1000",
-    "title": "Scheds - A Course Schedule Generator",
-    "description": "My proudest project yet, a comprehensive course schedule generator application built with ASP.NET Core MVC.",
-    "tags": ["ASP.NET Core", "C#", "Entity Framework", "SQL Server", "Bootstrap", "jQuery"],
-    "repoLink": "https://github.com/microsoft/dotnet",
-    "demoLink": "https://dotnet.microsoft.com/"
+    "image": "https://i.pinimg.com/originals/1a/7d/bb/1a7dbb35b12109747939efcf44ff364f.png",
+    "title": "Carousels - HTML CSS Project",
+    "description": "A responsive image carousel that displays beautiful nature photographs with smooth transitions",
+    "tags": ["HTML", "CSS", "JS"],
+    "repoLink": "https://github.com/SachinRathor516/HTML-CSS",
+    "demoLink": "https://carousel-nd1d.onrender.com"
   },
   {
     "id": 2,
-    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000",
-    "title": "FinTrack - Personal Finance Dashboard",
-    "description": "A real-time finance tracker that visualizes spending habits using interactive charts and connects to banking APIs.",
-    "tags": ["React", "TypeScript", "Chart.js", "Node.js", "Express", "MongoDB"],
-    "repoLink": "https://github.com/facebook/react",
-    "demoLink": "https://react.dev/"
+    "image": "https://images.unsplash.com/photo-1764601841441-34ebb3d42a78?q=80&w=1460&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Snake Game - JS Project",
+    "description": "A classic Snake Game built with JavaScript, where players control the snake using arrow keys to collect food and grow longer.",
+    "tags": ["HTML", "CSS" ,"JS"],
+    "repoLink": "https://github.com/SachinRathor516/Snake-game",
+    "demoLink": "https://snake-game-46lo.onrender.com"
   },
   {
     "id": 3,
-    "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&q=80&w=1000",
-    "title": "SecureAuth - Backend Identity Service",
-    "description": "A robust backend authentication microservice featuring JWT implementation, role-based access control, and OAuth2 integration.",
-    "tags": ["Python", "Django", "PostgreSQL", "Docker", "Redis", "JWT"],
-    "repoLink": "https://github.com/django/django",
-    "demoLink": null
+    "image": "https://media.istockphoto.com/id/452360347/photo/portfolio-cut-from-paper-on-background.jpg?s=2048x2048&w=is&k=20&c=-PfN2vb0PrO41PdS3nHsyN9CHcpmae5jvLueamFekI0=",
+    "title": "Portfolio - Home , about , contact etc",
+    "description": "A modern and responsive portfolio website built to showcase my projects, skills, and development journey",
+    "tags": ["HTML", "CSS", "JS"],
+    "repoLink": "https://github.com/SachinRathor516/portfolio",
+    "demoLink": "https://portfolio-hnqy.onrender.com"
   },
   {
     "id": 4,
-    "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=1000",
-    "title": "ChatStream - Real-time Messaging App",
-    "description": "A lightweight chat application allowing users to create rooms and message instantly. Optimized for low latency communication.",
-    "tags": ["Vue.js", "Firebase", "Tailwind CSS", "Socket.io"],
-    "repoLink": "https://github.com/vuejs/core",
-    "demoLink": "https://vuejs.org/"
+    "image": "https://images.unsplash.com/photo-1611262588024-d12430b98920?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Insta_clone - Backend project",
+    "description": "An insta clone complete Authentication (Register , Login , Like , Follow , etc.)",
+    "tags": ["JS" ,"Express" ,"Reactjs" ,"MongoDB" ,"Nodejs" ,"Rest APIs"],
+    "repoLink": "https://github.com/SachinRathor516/web-design/tree/main/insta-clone",
+    "demoLink": null
   },
   {
     "id": 5,
-    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=1000",
-    "title": "TerminalX - CLI Productivity Tool",
-    "description": "A command-line interface tool built to automate repetitive developer tasks and manage local environments efficiently.",
-    "tags": ["Rust", "Clap", "Tokio", "System API"],
-    "repoLink": "https://github.com/rust-lang/rust",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1026&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "MacOs - React project",
+    "description": "A Mac-Os window created many windows inside like gitHub , Pdf , Cli , Note , Spotify etc . you can play songs inside and open multiple windows at a time",
+    "tags": ["React" ,"SCSS"],
+    "repoLink": "https://github.com/SachinRathor516/Mac-Os",
     "demoLink": null
   }
 ]

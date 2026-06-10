@@ -1,7 +1,8 @@
 .cards {
     overflow: auto;
     height: 100%;
-    padding: 1rem;
+    padding-inline: 1rem;
+    padding-block: 1rem;
 
     display: flex;
     flex-wrap: wrap;
@@ -67,5 +68,20 @@
 
             }
         }
+    }
+}
+.github-profile{
+    width: fit-content;
+    padding-inline: 0.8rem;
+    padding-block: 0.4rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-inline-start: 2rem;
+    background-color: #3e3d3d88;
+    
+    a{
+        font-size: 1.3rem;
+        text-decoration: none;
+        color: rgb(177, 174, 174);
     }
 }

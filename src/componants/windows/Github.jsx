@@ -17,8 +17,8 @@ const GitCard = ({ data = { id: 1, image: '', title: '', description: '', tags: 
         </div>
 
         <div className="urls">
-            <a href={data.repoLink}>Repository</a>
-            {data.demoLink && <a href={data.demoLink}>Demo Link</a>}
+            <a href={data.repoLink} target='_blank'>Repository</a>
+            {data.demoLink && <a href={data.demoLink} target='_blank'>Demo Link</a>}
         </div>
 
     </div>
@@ -28,15 +28,17 @@ const GitCard = ({ data = { id: 1, image: '', title: '', description: '', tags: 
 const Github = ({ windowName, setWindowsState }) => {
     return (
         <MacWindow windowName={windowName} setWindowsState={setWindowsState}>
+            <div className='github-profile'><a href="https://github.com/SachinRathor516">Click to Visit GitHub profile</a></div>
             <div className="cards">
                 <div className="cards">
                     {
                         githubData.map(project => {
                             return <GitCard data={project} />
                         })
-                    }
+                    }                
                 </div>
             </div>
+            
         </MacWindow>
     )
 }
